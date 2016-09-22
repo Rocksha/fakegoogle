@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+ul li{
+    list-style-type:none;
+    display: inline;
+    margin:0 7px;
+}
+#navbar {
+    height:54px;
+    width:100%;
+}
+#navItems{
+    float:right;
+    color:#272727;
+}
+#navItems li{
+    line-height: 54px;
+    font-size:13px;
+}
+#navItems a:link, #navItems a:visited{
+    color:#272727;
+    text-decoration:none;
+}
+#navItems a:hover{
+    text-decoration:underline;
+}
+#SignIn {
+    padding:8px 10px;
+    background-color:#4285F4;
+    font-weight:bold;
+    margin-right:25px;
+    border-radius:2px;
+}
+#SignIn a:link, #SignIn a:visited{
+    color:white;
+}
+#SignIn a:hover{
+    text-decoration:none;
+}
+#navbar #navItems #applogo{
+    position:relative;
+    top:3px;
+}
+#container {
+    width:700px;
+    margin: 100px auto 0;
+    padding: 20px;
+}
+
+#logo {
+    display:block;
+    max-height:100px;
+    padding:20px;
+    margin: 0 auto;
+
+}
+input[type="text"] {
+    display: block;
+    width:520px;
+    padding:10px;
+    border:solid 1px #C9C9C9;
+    margin: 0 auto;
+    margin-bottom:5px;
+    font-size:15px;
+}
+input[type="text"]:hover{
+    border:solid 1px #999;
+}
+input[type="text"]:focus{
+    outline:none;
+    border:solid 1px #4285F4;
+}
+input[type="submit"]{
+    display:inline-block;
+    padding:10px 18px;
+    text-transform: capitalize;
+    margin:30px 4px;
+    background-color:#F2F2F2;
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+    border:none;
+    position:relative;
+    left:30%;
+    border-radius:2px;
+    
+}
+input[type="submit"]:hover {
+    color:#282828;
+    border:solid 1px #ccc;
+}
+.clearfix{
+    content="";
+    display:table;
+    clear:both;
+}
+footer{
+    background-color:#F2F2F2;
+    position:absolute;
+    bottom:0;
+    height:47px;
+    width:100%;
+
+}
+#leftFooter{
+    display:inline-block;
+    font-size:13px;
+    float:left;
+    margin-left:20px;
+}
+#rightFooter{
+    display:inline-block;
+    font-size:13px;
+    float:right;
+    margin-right:20px;
+}
+footer a{
+    margin:0 5px;
+}
+footer a:link, footer a:visited{
+    color:#666;
+    text-decoration:none;
+    line-height:47px;
+}
+footer a:hover{
+    text-decoration:underline;
+}
+footer a:active{
+    color:red;
+}
+#dummy{
+    
+}
+
